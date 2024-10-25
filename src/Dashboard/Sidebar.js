@@ -1,6 +1,6 @@
 // src/Sidebar/Sidebar.js
 import React, { useRef } from 'react';
-import { FaUserFriends, FaProjectDiagram, FaTicketAlt, FaRocket, FaBuilding, FaHandshake, FaChartLine, FaBox, FaCube, FaFileAlt } from 'react-icons/fa';
+import { FaUserFriends, FaProjectDiagram, FaTicketAlt, FaRocket, FaBuilding, FaHandshake, FaChartLine, FaCube, FaFileAlt } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap
 import styles from './Sidebar.module.css';  // Import CSS module
 
