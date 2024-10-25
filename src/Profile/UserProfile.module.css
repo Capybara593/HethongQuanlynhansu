@@ -1,0 +1,91 @@
+.profileContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+  }
+  
+  .profileImage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profileDetails {
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+  
+  .profileDetails h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .profileDetails p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .sendMessageBtn {
+    background-color: #ff5b5b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profileInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .profileInfoLeft, .profileInfoRight {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .profileInfo p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .profileInfoRight img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .profileTabs ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .profileTabs ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #888;
+    font-size: 16px;
+  }
+  
+  .active {
+    border-bottom: 2px solid #ff5b5b;
+    color: #ff5b5b;
+  }

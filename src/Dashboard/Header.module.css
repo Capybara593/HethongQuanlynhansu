@@ -1,0 +1,95 @@
+.customHeader {
+    height: 60px; /* Đặt chiều cao cố định cho thanh header */
+    padding: 10px 20px; /* Thêm khoảng cách (padding) giữa nội dung bên trong và viền của header (trên/dưới: 10px, trái/phải: 20px) */
+  }
+  
+  /* Căn chỉnh logo và icon trong cùng một hàng */
+  .customLogo {
+    margin-right: auto; /* Đẩy logo về phía bên trái bằng cách đặt các phần tử khác về phía bên phải */
+    display: flex; /* Sử dụng flexbox để sắp xếp logo và icon trên cùng một hàng ngang */
+    align-items: center; /* Căn giữa logo và icon theo chiều dọc */
+  }
+  
+  .menuIcon {
+    margin-left: 90px; /* Tạo khoảng cách giữa logo (SmartHR) và biểu tượng menu (icon ba gạch) */
+    font-size: 1.5rem; /* Điều chỉnh kích thước của biểu tượng menu */
+    transition: margin-left 0.3s ease; /* Thêm hiệu ứng chuyển động mượt khi thay đổi giá trị margin-left */
+  }
+  
+  /* Thay đổi vị trí của icon khi menu mở */
+  .menuOpen {
+    margin-left: 0px; /* Khi menu mở, icon menu sẽ dịch chuyển về sát bên trái */
+  }
+  
+  /* Căn chỉnh tên công ty và tạo khoảng cách với icon menu */
+  .companyName {
+    margin-left: 20px; /* Tạo khoảng cách giữa icon menu và tên công ty (Dreams Technologies) */
+    font-size: 1.1rem; /* Điều chỉnh kích thước của font chữ tên công ty */
+    font-weight: 500; /* Làm cho chữ tên công ty dày hơn, tạo sự nhấn mạnh */
+  }
+  
+  /* Tìm kiếm */
+  .searchForm {
+    margin-left: auto; /* Đẩy form tìm kiếm về phía bên phải */
+    margin-right: 20px; /* Tạo khoảng cách giữa thanh tìm kiếm và nhóm biểu tượng thông báo */
+    display: flex; /* Sử dụng flexbox để đảm bảo các thành phần bên trong form được sắp xếp theo chiều ngang */
+    align-items: center; /* Căn giữa các thành phần bên trong form theo chiều dọc */
+  }
+  
+  .searchForm input {
+    margin-right: 10px; /* Tạo khoảng cách giữa ô input tìm kiếm và nút tìm kiếm (icon kính lúp) */
+  }
+  
+  /* Căn chỉnh nhóm thông báo và profile */
+  .notificationGroup {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các biểu tượng thông báo và profile theo hàng ngang */
+    align-items: center; /* Căn giữa các biểu tượng thông báo và tên người dùng theo chiều dọc */
+  }
+  
+  .notificationGroup a {
+    margin-right: 15px; /* Tạo khoảng cách giữa các biểu tượng trong nhóm thông báo */
+  }
+  
+  .notificationGroup span {
+    font-weight: 600; /* Làm đậm chữ của tên người dùng (Admin) */
+  }
+  .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 150px;
+    margin-top: 10px;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  /* Header.module.css */
+
+/* Bỏ gạch chân cho chữ Admin */
+.adminText {
+    text-decoration: none ; /* Loại bỏ gạch chân */
+    margin-left: 5px; /* Giảm khoảng cách giữa avatar và chữ Admin */
+    color: black; /* Kế thừa màu chữ từ phần tử cha */
+  }
+  
+  /* Thay đổi màu của icon dropdown */
+  .iconDropdown {
+    color: black; /* Đặt màu của icon thành màu đen */
+  }
+  
